@@ -13,6 +13,6 @@ class GCalIndex:
     def build_index():
         pass
 
-    def query_index(t: datetime) -> List[GCalEntry]:
+    def query_for_event(t: datetime) -> List[GCalEntry]:
         """Return events which contain the datetime."""
         pass
